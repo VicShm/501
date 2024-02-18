@@ -14,7 +14,7 @@ body {
 button{
   width: 90%;
   height: 90%;
-  font: small-caps 2vh/1 sans-serif;
+  font: small-caps 2.5vh/1 sans-serif;
   margin: .7vw;
   padding: .7vw;
 }
@@ -22,7 +22,7 @@ button{
 
 table{ 
   top: 106vw;
-  left: 18vw;
+  left: 3vw;
   padding: 0;
   margin: 0;
   width: 100vw;
@@ -34,7 +34,7 @@ td{
  padding-top: .5%;
  border: 3px solid green; 
  font-style: oblique;
- font: small-caps 5vw/1 sans-serif;
+ font: small-caps 8vw/1 sans-serif;
  color: green;
 }
 

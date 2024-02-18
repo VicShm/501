@@ -13,18 +13,18 @@ body {
 button{
   width: 90%;
   height: 90%;
-  font: small-caps 2vh/1 sans-serif;
+  font: small-caps 3vh/1 sans-serif;
   margin: .7vw;
   padding: .7vw;
 
 }
 
 table{ 
-  top: 10vw;
+  top: 5vw;
   right: 5vw;
   padding: 0;
   margin: 0;
-  width: 50vw;
+  width: 50vh;
   text-align: center;
   background: white;
   color: black;
@@ -33,7 +33,7 @@ table{
 td{
  padding-top: 2%;
  border: 3px solid green; 
- font: small-caps 2vh/1 sans-serif;
+ font: small-caps 5vh/1 sans-serif;
  color: green;
 }
 
