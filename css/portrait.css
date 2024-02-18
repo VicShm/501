@@ -1,0 +1,119 @@
+body {  
+  text-align: -webkit-center;
+  padding: 0;
+  margin: 0%;
+  width: calc(100% - 100px);
+  height: 100vh;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background: green;
+}
+
+
+button{
+  width: 90%;
+  height: 90%;
+  font: small-caps 2vh/1 sans-serif;
+  margin: .7vw;
+  padding: .7vw;
+}
+
+
+table{ 
+  top: 106vw;
+  left: 18vw;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  text-align: center;
+  background: white;
+}
+
+td{
+ padding-top: .5%;
+ border: 3px solid green; 
+ font-style: oblique;
+ font: small-caps 5vw/1 sans-serif;
+ color: green;
+}
+
+#target {position: absolute; top: 0; left: 0; padding: 0; width: 100vw; margin: 0; content: url("../images/target.png");}
+#ground {position: absolute; top: 0; left: 0; padding: 0; width: 100%; height: 100%; margin: 0; content: url("../images/ground1.jpg");}
+
+.b {font: small-caps bold 7vw/1 sans-serif; color: black; position: absolute;  width: 12vw;}
+.w {font: small-caps bold 7vw/1 sans-serif; color: white; position: absolute;  width: 12vw;}
+.o {visibility: visible;}
+.d {visibility: hidden; background: yellow;}
+.t {visibility: hidden;background: red;}
+
+#x2 {top:  89vw; left: 2vw;}
+#x3 {top:  89vw; left: 85vw;}
+#g1 {top: 102vw; left: 0vw;}
+
+#o0  {top: 6vw;  left: 2vw;   }
+#o25 {top: 48vw; left: 44vw;  }
+#o50 {top: 6vw;  left: 85vw;  }
+
+#o1  {top: 25vw; left: 51vw;  }
+#o2  {top: 81vw; left: 68vw;  }
+#o3  {top: 90vw; left: 44vw;  }
+#o4  {top: 34vw; left: 63vw;  }
+#o5  {top: 25vw; left: 36vw;  }
+#o6  {top: 48vw; left: 68vw;  }
+#o7  {top: 82vw; left: 20vw;  }
+#o8  {top: 61vw; left: 4vw;   }
+#o9  {top: 34vw; left: 24vw;  }
+#o10 {top: 61vw; left: 83vw;  }
+#o11 {top: 48vw; left: 20vw;  }
+#o12 {top: 16vw; left: 20vw;  }
+#o13 {top: 35vw; left: 83vw;  }
+#o14 {top: 35vw; left: 5vw;   }
+#o15 {top: 62vw; left: 63vw;  }
+#o16 {top: 62vw; left: 24vw;  }
+#o17 {top: 72vw; left: 51vw;  }
+#o18 {top: 15vw; left: 68vw;  }
+#o19 {top: 71vw; left: 36.5vw;}
+#o20 {top: 6vw;  left: 44vw;  }
+
+#d2  {top: 25vw; left: 51vw;  }
+#d4  {top: 81vw; left: 68vw;  }
+#d6  {top: 90vw; left: 44vw;  }
+#d8  {top: 34vw; left: 63vw;  }
+#d10 {top: 25vw; left: 36vw;  }
+#d12 {top: 48vw; left: 68vw;  }
+#d14 {top: 82vw; left: 20vw;  }
+#d16 {top: 61vw; left: 4vw;   }
+#d18 {top: 34vw; left: 24vw;  }
+#d20 {top: 61vw; left: 83vw;  }
+#d22 {top: 48vw; left: 20vw;  }
+#d24 {top: 16vw; left: 20vw;  }
+#d26 {top: 35vw; left: 83vw;  }
+#d28 {top: 35vw; left: 5vw;   }
+#d30 {top: 62vw; left: 63vw;  }
+#d32 {top: 62vw; left: 24vw;  }
+#d34 {top: 72vw; left: 51vw;  }
+#d36 {top: 15vw; left: 68vw;  }
+#d38 {top: 71vw; left: 36.5vw;}
+#d40 {top: 6vw;  left: 44vw;  }
+
+#t3  {top: 25vw; left: 51vw;  }
+#t6  {top: 81vw; left: 68vw;  }
+#t9  {top: 90vw; left: 44vw;  }
+#t12 {top: 34vw; left: 63vw;  }
+#t15 {top: 25vw; left: 36vw;  }
+#t18 {top: 48vw; left: 68vw;  }
+#t21 {top: 82vw; left: 20vw;  }
+#t24 {top: 61vw; left: 4vw;   }
+#t27 {top: 34vw; left: 24vw;  }
+#t30 {top: 61vw; left: 83vw;  }
+#t33 {top: 48vw; left: 20vw;  }
+#t36 {top: 16vw; left: 20vw;  }
+#t39 {top: 35vw; left: 83vw;  }
+#t42 {top: 35vw; left: 5vw;   }
+#t45 {top: 62vw; left: 63vw;  }
+#t48 {top: 62vw; left: 24vw;  }
+#t51 {top: 72vw; left: 51vw;  }
+#t54 {top: 15vw; left: 68vw;  }
+#t57 {top: 71vw; left: 36.5vw;}
+#t60 {top: 6vw;  left: 44vw;  }

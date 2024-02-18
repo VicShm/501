@@ -1,2 +1,2 @@
-# 501
-Darts counter for 2 players from 501 points
+# DartsScore 
+Darts Scoreboard. 2 Players. Decrement count 501. Scoring points.
