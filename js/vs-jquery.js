@@ -15,7 +15,7 @@ function new_three_throws() {
   $('#diff2').html('')
   $('#diff1').css('background-color', 'silver');
   $('#diff2').css('background-color', 'silver');
-  $('#summa').css('background-color', 'silver');
+  $('#summa').css('background-color', 'white');
 }
 
 $('#cancel').click( function () {
