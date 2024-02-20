@@ -16,10 +16,17 @@ button{
   font: small-caps 3vh/1 sans-serif;
   margin: .7vw;
   padding: .7vw;
-
 }
 
-table{ 
+.hiddens{
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+#tablle1{ 
   top: 5vw;
   right: 5vw;
   padding: 0;
@@ -36,6 +43,24 @@ td{
  font: small-caps 5vh/1 sans-serif;
  color: green;
 }
+
+#tablle2{ 
+  top: 45vh;
+  right: 10vw;
+  padding: 0;
+  margin: 0;
+  width: 50vh;
+  text-align: center;
+  background: yellow;
+  color: black;
+  opacity: .7;
+}
+
+.tabl2{
+  color: red;
+}
+
+
 
 #target {position: absolute; top: 0; left: 5vw; padding: 0; width:  45vw; margin: 0; content: url("../images/target.png");}
 
